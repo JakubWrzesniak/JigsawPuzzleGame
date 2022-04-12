@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F952B807280603AC007ED7AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F952B806280603AC007ED7AB /* AppDelegate.swift */; };
+		F952B809280603AC007ED7AB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F952B808280603AC007ED7AB /* GameViewController.swift */; };
+		F952B80C280603AC007ED7AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F952B80A280603AC007ED7AB /* Main.storyboard */; };
+		F952B80F280603AC007ED7AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F952B80D280603AC007ED7AB /* LaunchScreen.storyboard */; };
+		F952B817280603AC007ED7AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F952B816280603AC007ED7AB /* AppDelegate.swift */; };
+		F952B819280603AC007ED7AB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F952B818280603AC007ED7AB /* GameViewController.swift */; };
+		F952B81C280603AC007ED7AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F952B81A280603AC007ED7AB /* Main.storyboard */; };
+		F952B81E280603AC007ED7AB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F952B7FB280603A9007ED7AB /* Actions.sks */; };
+		F952B81F280603AC007ED7AB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F952B7FB280603A9007ED7AB /* Actions.sks */; };
+		F952B820280603AC007ED7AB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F952B7FC280603A9007ED7AB /* GameScene.sks */; };
+		F952B821280603AC007ED7AB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F952B7FC280603A9007ED7AB /* GameScene.sks */; };
+		F952B822280603AC007ED7AB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F952B7FD280603A9007ED7AB /* GameScene.swift */; };
+		F952B823280603AC007ED7AB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F952B7FD280603A9007ED7AB /* GameScene.swift */; };
+		F952B824280603AC007ED7AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F952B7FE280603AC007ED7AB /* Assets.xcassets */; };
+		F952B825280603AC007ED7AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F952B7FE280603AC007ED7AB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F952B7FB280603A9007ED7AB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		F952B7FC280603A9007ED7AB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F952B7FD280603A9007ED7AB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F952B7FE280603AC007ED7AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F952B803280603AC007ED7AB /* JigsawPuzzleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JigsawPuzzleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F952B806280603AC007ED7AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F952B808280603AC007ED7AB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F952B80B280603AC007ED7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F952B80E280603AC007ED7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F952B814280603AC007ED7AB /* JigsawPuzzleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JigsawPuzzleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F952B816280603AC007ED7AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F952B818280603AC007ED7AB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F952B81B280603AC007ED7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F952B81D280603AC007ED7AB /* JigsawPuzzleGame_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JigsawPuzzleGame_macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F952B800280603AC007ED7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F952B811280603AC007ED7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F952B7F5280603A9007ED7AB = {
+			isa = PBXGroup;
+			children = (
+				F952B7FA280603A9007ED7AB /* JigsawPuzzleGame Shared */,
+				F952B805280603AC007ED7AB /* JigsawPuzzleGame iOS */,
+				F952B815280603AC007ED7AB /* JigsawPuzzleGame macOS */,
+				F952B804280603AC007ED7AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F952B7FA280603A9007ED7AB /* JigsawPuzzleGame Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F952B7FB280603A9007ED7AB /* Actions.sks */,
+				F952B7FC280603A9007ED7AB /* GameScene.sks */,
+				F952B7FD280603A9007ED7AB /* GameScene.swift */,
+				F952B7FE280603AC007ED7AB /* Assets.xcassets */,
+			);
+			path = "JigsawPuzzleGame Shared";
+			sourceTree = "<group>";
+		};
+		F952B804280603AC007ED7AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F952B803280603AC007ED7AB /* JigsawPuzzleGame.app */,
+				F952B814280603AC007ED7AB /* JigsawPuzzleGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F952B805280603AC007ED7AB /* JigsawPuzzleGame iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F952B806280603AC007ED7AB /* AppDelegate.swift */,
+				F952B808280603AC007ED7AB /* GameViewController.swift */,
+				F952B80A280603AC007ED7AB /* Main.storyboard */,
+				F952B80D280603AC007ED7AB /* LaunchScreen.storyboard */,
+			);
+			path = "JigsawPuzzleGame iOS";
+			sourceTree = "<group>";
+		};
+		F952B815280603AC007ED7AB /* JigsawPuzzleGame macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F952B816280603AC007ED7AB /* AppDelegate.swift */,
+				F952B818280603AC007ED7AB /* GameViewController.swift */,
+				F952B81A280603AC007ED7AB /* Main.storyboard */,
+				F952B81D280603AC007ED7AB /* JigsawPuzzleGame_macOS.entitlements */,
+			);
+			path = "JigsawPuzzleGame macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F952B802280603AC007ED7AB /* JigsawPuzzleGame iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F952B828280603AC007ED7AB /* Build configuration list for PBXNativeTarget "JigsawPuzzleGame iOS" */;
+			buildPhases = (
+				F952B7FF280603AC007ED7AB /* Sources */,
+				F952B800280603AC007ED7AB /* Frameworks */,
+				F952B801280603AC007ED7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JigsawPuzzleGame iOS";
+			productName = "JigsawPuzzleGame iOS";
+			productReference = F952B803280603AC007ED7AB /* JigsawPuzzleGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F952B813280603AC007ED7AB /* JigsawPuzzleGame macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F952B82B280603AC007ED7AB /* Build configuration list for PBXNativeTarget "JigsawPuzzleGame macOS" */;
+			buildPhases = (
+				F952B810280603AC007ED7AB /* Sources */,
+				F952B811280603AC007ED7AB /* Frameworks */,
+				F952B812280603AC007ED7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JigsawPuzzleGame macOS";
+			productName = "JigsawPuzzleGame macOS";
+			productReference = F952B814280603AC007ED7AB /* JigsawPuzzleGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F952B7F6280603A9007ED7AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F952B802280603AC007ED7AB = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					F952B813280603AC007ED7AB = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F952B7F9280603A9007ED7AB /* Build configuration list for PBXProject "JigsawPuzzleGame" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F952B7F5280603A9007ED7AB;
+			productRefGroup = F952B804280603AC007ED7AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F952B802280603AC007ED7AB /* JigsawPuzzleGame iOS */,
+				F952B813280603AC007ED7AB /* JigsawPuzzleGame macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F952B801280603AC007ED7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F952B820280603AC007ED7AB /* GameScene.sks in Resources */,
+				F952B80C280603AC007ED7AB /* Main.storyboard in Resources */,
+				F952B81E280603AC007ED7AB /* Actions.sks in Resources */,
+				F952B80F280603AC007ED7AB /* LaunchScreen.storyboard in Resources */,
+				F952B824280603AC007ED7AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F952B812280603AC007ED7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F952B81C280603AC007ED7AB /* Main.storyboard in Resources */,
+				F952B821280603AC007ED7AB /* GameScene.sks in Resources */,
+				F952B825280603AC007ED7AB /* Assets.xcassets in Resources */,
+				F952B81F280603AC007ED7AB /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F952B7FF280603AC007ED7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F952B822280603AC007ED7AB /* GameScene.swift in Sources */,
+				F952B809280603AC007ED7AB /* GameViewController.swift in Sources */,
+				F952B807280603AC007ED7AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F952B810280603AC007ED7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F952B823280603AC007ED7AB /* GameScene.swift in Sources */,
+				F952B819280603AC007ED7AB /* GameViewController.swift in Sources */,
+				F952B817280603AC007ED7AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F952B80A280603AC007ED7AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F952B80B280603AC007ED7AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F952B80D280603AC007ED7AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F952B80E280603AC007ED7AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F952B81A280603AC007ED7AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F952B81B280603AC007ED7AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F952B826280603AC007ED7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F952B827280603AC007ED7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F952B829280603AC007ED7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BZ43V7Y698;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JakubWrzesniak.JigsawPuzzleGame;
+				PRODUCT_NAME = JigsawPuzzleGame;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F952B82A280603AC007ED7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BZ43V7Y698;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JakubWrzesniak.JigsawPuzzleGame;
+				PRODUCT_NAME = JigsawPuzzleGame;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F952B82C280603AC007ED7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "JigsawPuzzleGame macOS/JigsawPuzzleGame_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BZ43V7Y698;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JakubWrzesniak.JigsawPuzzleGame;
+				PRODUCT_NAME = JigsawPuzzleGame;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F952B82D280603AC007ED7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "JigsawPuzzleGame macOS/JigsawPuzzleGame_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BZ43V7Y698;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JakubWrzesniak.JigsawPuzzleGame;
+				PRODUCT_NAME = JigsawPuzzleGame;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F952B7F9280603A9007ED7AB /* Build configuration list for PBXProject "JigsawPuzzleGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F952B826280603AC007ED7AB /* Debug */,
+				F952B827280603AC007ED7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F952B828280603AC007ED7AB /* Build configuration list for PBXNativeTarget "JigsawPuzzleGame iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F952B829280603AC007ED7AB /* Debug */,
+				F952B82A280603AC007ED7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F952B82B280603AC007ED7AB /* Build configuration list for PBXNativeTarget "JigsawPuzzleGame macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F952B82C280603AC007ED7AB /* Debug */,
+				F952B82D280603AC007ED7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F952B7F6280603A9007ED7AB /* Project object */;
+}
